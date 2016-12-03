@@ -1,0 +1,21 @@
+to start a reposotory :
+git init
+
+hey git add alll the changes we did to the folder:
+like adding it to working area
+
+working area > staging area > repoitrry
+git add .
+
+commiting...adds all files in directiory -m message: 
+git commit - m "This is our first commit"
+
+
+view git history:
+git log 
+
+showing status of files:
+git status
+
+getting dfferece from working and repo:
+get diff
