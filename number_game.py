@@ -1,9 +1,6 @@
 import random	
 
 # generate a random number between 1 and 10
-
-
-
 def game():
 	secret_num = random.randint(1,10)
 	guesses = []
@@ -20,7 +17,6 @@ def game():
 			
 		else:	
 			#compare guess to secret number
-			
 			if guess == secret_num:
 				print("you guess correctly! My number was {}".format(secret_num))
 				break
@@ -36,6 +32,4 @@ def game():
 		game()
 	else:
 		print("Bye!")
-		
-	
 game()
