@@ -34,6 +34,7 @@ moving into diff folder:
 git mv example.txt foldername/new.txt
 
 commit from working copy to reopositry directly:
+oly use for single editis
 git commit =am "cleaned upp comments"
 
 
