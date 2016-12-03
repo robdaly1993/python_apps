@@ -19,3 +19,7 @@ git status
 
 getting dfferece from working and repo:
 get diff
+
+getting difference between stagging area and repo:
+git diff --staged
+
