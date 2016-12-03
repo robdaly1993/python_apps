@@ -33,5 +33,11 @@ git mv second.txt pudding.txt
 moving into diff folder:
 git mv example.txt foldername/new.txt
 
+commit from working copy to reopositry directly:
+git commit =am "cleaned upp comments"
+
+
+
+
 
 
