@@ -24,4 +24,14 @@ getting difference between stagging area and repo:
 git diff --staged
 
 delete files:
-git rm "example.txt"
+git rm example.txt
+
+moving a file is like renaming with git:
+rename second to pudding
+git mv second.txt pudding.txt
+
+moving into diff folder:
+git mv example.txt foldername/new.txt
+
+
+
