@@ -23,3 +23,5 @@ get diff
 getting difference between stagging area and repo:
 git diff --staged
 
+delete files:
+git rm "example.txt"
