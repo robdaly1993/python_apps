@@ -37,6 +37,19 @@ commit from working copy to reopositry directly:
 oly use for single editis
 git commit =am "cleaned upp comments"
 
+get files from our repo back to working copy(local):
+checkout takes repo file and replace it as working copy
+git checkout -- index.html
+
+
+unstage files:
+git reset HEAD prefile.html
+
+getting old versions from the repository:
+checkout the commit number of when the file was good:
+git checkout 01e7fgdfg7 --index.html
+
+
 
 
 
