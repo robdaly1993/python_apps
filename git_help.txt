@@ -50,8 +50,16 @@ checkout the commit number of when the file was good:
 git checkout 01e7fgdfg7 --index.html
 
 
+git remote add githubrepo htpps:// the name ogf the repo on github
 
 
+git push -u githudrepo
+
+
+
+get files from server tyo local:
+git fetch
+git merge
 
 
 
