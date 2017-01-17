@@ -45,7 +45,10 @@ def move_player(player, move):
 	
 def get_moves(plyer):
 	moves = ['LEFT', 'RIGHT', 'UP', 'DOWN']
-	#player = (x,y)
+	#if player's y is 0, remove LEFT
+	#if player's x is 0, remove UP
+	#if player's y is 2, remove RIGHT
+	#if player's x is 2, remove DOWN
 	if player[1] == 0:
 		moves.remove("LEFT")
 	if player[1] == 2: 
@@ -54,12 +57,7 @@ def get_moves(plyer):
 		moves.remove("UP")
 	if player[0] == 2: 
 		moves.remove("DOWN")		
-	
-		
-	#if player's y is 0, remove LEFT
-	#if player's x is 0, remove UP
-	#if player's y is 2, remove RIGHT
-	#if player's x is 2, remove DOWN
+
 	return moves
 
 def draw_map(player):
